@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import AnalyseView from "@/views/AnalyseView.vue";
 import DataView from "@/views/DataView.vue";
 import HomeView from "@/views/HomeView.vue";
-import SuggestView from "@/views/SuggestView.vue";
+import PolicyView from "@/views/PolicyView.vue";
 import TestView from "@/views/TestView.vue"
 
 const routes = [
@@ -27,9 +27,9 @@ const routes = [
         component: HomeView
     },
     {
-        path: '/suggest',
-        name: 'suggest',
-        component: SuggestView
+        path: '/policy',
+        name: 'policy',
+        component: PolicyView
     },
     {
         path:'/test',

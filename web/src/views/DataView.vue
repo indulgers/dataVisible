@@ -47,16 +47,20 @@
               321
             </el-card>
           </el-col>
-
+          <el-col :span="7" style="height: 100%;margin-left: 15px">
+            <el-card class="item" style="height: 100%">
+              456
+            </el-card>
+          </el-col>
         </el-row>
         <el-row style="height: 62%">
 
         </el-row>
         <el-row style="height: 20%">
           <el-col :span="7" style="height: 100%">
-            <el-card  class="item" style="margin-left: 15px">
-              456
-            </el-card>
+<!--            <el-card  class="item" style="margin-left: 15px">-->
+<!--              456-->
+<!--            </el-card>-->
           </el-col>
 
         </el-row>
@@ -209,13 +213,12 @@ export default {
 
 .bgMap {
   position: absolute;
-  margin: auto;
-  top: 0;
+  top: 10%;
   left: 0;
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 100%;
+  height: 90%;
   z-index: 1;
 }
 

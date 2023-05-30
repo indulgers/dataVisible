@@ -18,8 +18,9 @@
     >
       <el-menu-item index="1">主页</el-menu-item>
       <el-menu-item index="2">数据库</el-menu-item>
-      <el-menu-item index="3">分析</el-menu-item>
-      <el-menu-item index="4">政策</el-menu-item>
+
+      <el-menu-item index="3">政策</el-menu-item>
+      <el-menu-item index="4">分析</el-menu-item>
     </el-menu>
   </el-col>
 
@@ -45,10 +46,10 @@ export default {
           this.$router.push({name: 'data'})
           break;
         case '3':
-          this.$router.push({name: 'analyse'})
+          this.$router.push({name: 'policy'})
           break;
         case '4':
-          this.$router.push({name: 'suggest'})
+          this.$router.push({name: 'analyse'})
           break;
         default:
           break;
